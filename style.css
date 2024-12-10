@@ -1,7 +1,8 @@
 /* Basic Style */
+/*TODO: 3.4. Селекторы тегов */
+
 body {
-   background-color: #b8b6b6;
-   /* background-color: #f8f8f8; */
+   background-color: #f8f8f8;
    color: #333;
    font-family: Lato, sans-serif;
 }
@@ -19,8 +20,9 @@ body {
 }
 
 @media (max-width:768px) {
-   .container-eisenhower { text-align: center;
-}
+   .container-eisenhower { 
+      text-align: center;
+   }
 }
 .list-cases {
    display: block;

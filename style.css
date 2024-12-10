@@ -1,27 +1,29 @@
 /* Basic Style */
 body {
+   /* background-color: #b8b6b6; */
+
    background-color: #f8f8f8;
    color: #333;
    font-family: Lato, sans-serif;
 }
-.aaa {
+.container-eisenhower {
    width: 500px;
    margin: 0 auto;
    display: block;
    text-align: right;
 }
-.aaa img {
+.container-eisenhower img {
    width: 100%;
 }
-.aaa .more-inf {
+.container-eisenhower .more-inf {
    font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
-   .aaa { text-align: center;
+   .container-eisenhower { text-align: center;
 }
 }
-.centered-main__page-element {
+.list-cases {
    display: block;
    width: 500px;
    margin: 0 auto 0;
@@ -31,7 +33,7 @@ body {
    display: inline-block;
    flex-grow: 1
 }
-.task-row__wrapper {
+.tasks-wrapper {
    display: flex;
 }
 ul {

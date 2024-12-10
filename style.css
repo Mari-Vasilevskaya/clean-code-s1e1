@@ -1,8 +1,7 @@
 /* Basic Style */
 body {
-   /* background-color: #b8b6b6; */
-
-   background-color: #f8f8f8;
+   background-color: #b8b6b6;
+   /* background-color: #f8f8f8; */
    color: #333;
    font-family: Lato, sans-serif;
 }
@@ -33,7 +32,7 @@ body {
    display: inline-block;
    flex-grow: 1
 }
-.tasks-wrapper {
+.tasks-wrap {
    display: flex;
 }
 ul {
@@ -130,7 +129,7 @@ button.delete img:hover {
 }
 
 /* Completed */
-ul#completed-tasks label {
+ul#done label {
    text-decoration: line-through
    color: #888;
 }

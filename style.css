@@ -18,7 +18,6 @@ img {
 .header__link {
   font-family: fantasy, cursive;
 }
-
 @media (max-width:768px) {
   .header { 
    text-align: center;
@@ -95,7 +94,6 @@ img {
 .input__text:focus {
   color: #333;
 }
-
 /* New Task */
 .title__new-task {
   display: block;
@@ -104,13 +102,11 @@ img {
 .section__task-text {
   width: 318px;
 }
-
 /* Task list */
 .list__item {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -118,7 +114,6 @@ img {
 .list__item > * {
   vertical-align: middle;
 }
-
 .input__checkbox {
   margin: 0 10px;
 }
@@ -143,25 +138,21 @@ img {
 .list__button-img:hover {
   transform: rotateZ(0);
 }
-
 /* Completed */
 .todo__tasks-list#completed-tasks, 
 .task__text {
   text-decoration: line-through;
   color: #888;
 }
-
 /* Edit Task */
 .input__text {
   display: none;
 }
-
 .editing__task-list-item, 
 .input__text {
   display: inline-block;
   width: 224px
 }
-
 .editing__task-list-item, 
 .task__text {
   display: none;

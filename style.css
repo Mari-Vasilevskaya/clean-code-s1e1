@@ -10,10 +10,12 @@ body {
   display: block;
   text-align: right;
 }
-.header img {
+.header, 
+img {
   width: 100%;
 }
-.header .header__link {
+.header, 
+.header__link {
   font-family: fantasy, cursive;
 }
 
@@ -41,10 +43,14 @@ body {
   margin:0;
   padding: 0px;
 }
-.list__item, .title {
+.list__item, 
+.title {
   list-style: none;
 }
-.section__task-text, .button__add, .list__input, .list__button{
+.section__task-text, 
+.button__add, 
+.list__input, 
+.list__button{
   outline: none;
 }
 .button__add,
@@ -125,17 +131,22 @@ body {
 .input__text {
   width: 226px;
 }
-.list__delete .list__button-img .delete {
+.list__delete, 
+.list__button-img, 
+.delete {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
-.list__delete .delete .list__button-img:hover {
+.list__delete, 
+.delete, 
+.list__button-img:hover {
   transform: rotateZ(0);
 }
 
 /* Completed */
-.todo__tasks-list#completed-tasks .task__text {
+.todo__tasks-list#completed-tasks, 
+.task__text {
   text-decoration: line-through;
   color: #888;
 }

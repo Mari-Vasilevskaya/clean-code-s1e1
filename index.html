@@ -14,42 +14,42 @@
   </div>
   <div class="main">
     <p id="add__task">
-    <label for="new-task">Add Item</label>
+    <label class="title title__new-task">Add Item</label>
     <div class="wrapper">
     <input 
       id="new-task"
-      class="task" 
+      class="section__task-text" 
       type="text">
     <button class="button__add">Add</button>
   </div>
   </p>
 
-  <h3>Todo</h3>
-  <ul id="incomplete-tasks">
+  <h3 class="title">Todo</h3>
+  <ul id="incomplete-tasks" class="todo__tasks-list">
     <li class="list__item">
-      <input type="checkbox">
+      <input class="list__input input__checkbox" type="checkbox">
       <label class="task__text">Pay Bills</label>
-      <input type="text" class="task">
-      <button class="edit">Edit</button>
-      <button class="delete">
-        <img src="./remove.svg">
+      <input type="text" class="list__input input__text">
+      <button class="list__button button__edit">Edit</button>
+      <button class="list__button list__delete">
+        <img src="./remove.svg" class="list__button-img">
       </button>
     </li>
 
   <li class="list__item editing__task-list-item">
-   <input type="checkbox">
+   <input type="checkbox" class="list__input input__checkbox">
    <label class="task__text">Go Shopping</label>
-   <input type="text" value="Go Shopping" class="task">
-   <button class="edit">Save</button>
-   <button class="delete">
-      <img src="./remove.svg">
+   <input type="text" value="Go Shopping" class="list__input input__text">
+   <button class="list__button button__save">Save</button>
+   <button class="list__button list__delete">
+      <img src="./remove.svg" class="list__button-img">
    </button>
   </li>
   </ul>
 
 <h3>Completed</h3>
   <ul id="completed-tasks">
-    <li>
+    <li class="completed__item">
       <input type="checkbox" checked>
       <label class="task">See the Doctor</label>
       <input type="text" class="task">

@@ -42,10 +42,10 @@ body {
   padding: 0px;
 }
 .list__item, .title {
-  list-style:none;
+  list-style: none;
 }
-.section__task-text,.button__add, .list__input, .list__button{
-  outline:none;
+.section__task-text, .button__add, .list__input, .list__button{
+  outline: none;
 }
 .button__add,
 .list__button {
@@ -142,16 +142,16 @@ body {
 
 /* Edit Task */
 .input__text {
-  display:none
+  display: none
 }
 
 .editing__task-list-item, 
 .input__text {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 .editing__task-list-item, 
 .task__text {
-  display:none;
+  display: none;
 }

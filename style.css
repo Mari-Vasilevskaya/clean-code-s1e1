@@ -134,7 +134,7 @@ body {
 }
 
 /* Completed */
-ul#completed-tasks .task__text {
+.todo__tasks-list#completed-tasks .task__text {
   text-decoration: line-through
   color: #888;
 }
